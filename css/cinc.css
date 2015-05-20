@@ -1,0 +1,25 @@
+header .encabezado{
+	display: inline-block;
+}
+
+nav ul li{
+	list-style: none;
+	float: none;
+	display: inline-block;
+	margin-right: 2em;
+}
+
+.container{
+	background: cyan;
+	width: 90%;
+}
+
+.acerca-de{
+	background: black;
+	color: white;
+}
+
+.acerca-de > p{
+	display: inline;
+	float: right;
+}
