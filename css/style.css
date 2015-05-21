@@ -1,0 +1,40 @@
+body {
+    //background-color: #EEEEEE;
+}
+
+.infoCard {
+    background-color: white;
+    border-radius: 4px;
+    //box-shadow: 0 0 8px rgba(0,0,0,.2);
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 15px;
+    height: 100%;
+}
+
+.infoCard>h3 {
+    color: #3F51B5;
+    margin-top: 0px;
+}
+
+.aboutCard {
+    box-shadow: 0 0 8px rgba(0,0,0,.2);
+    color: white;
+    text-shadow: 0 0 8px rgba(0,0,0,0.4);
+    background-image: url("../imgs/cinc_blur.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutCard>h3 {
+    color: white;
+}
+
+.filler {
+    height: 300px;
+}
+
+footer {
+    padding-bottom: 25px; 
+    padding-top: 25px
+}
